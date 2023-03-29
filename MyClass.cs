@@ -16,12 +16,12 @@ public class FibbonacheClass
         _fibbonacheSummStepI = 0;
         _Summ = _a + _b;
     }
-    public double fibbonacheNumber()
+    public (double, double) FibbonacheNumber()
     {
             _fibbonacheSummStepI = _fibbonacheBefore + _fibbonacheAfter;
             _fibbonacheBefore = _fibbonacheAfter;
             _fibbonacheAfter = _fibbonacheSummStepI;
             _Summ = _Summ + _fibbonacheAfter;
-            return _fibbonacheAfter;
+            return (_fibbonacheAfter, _Summ);
     }
 }

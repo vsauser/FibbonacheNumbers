@@ -23,7 +23,7 @@ do
 
     for(int i = 1; i < (_n - 1); i++)
     {
-        Console.WriteLine(fibbonacheClass.fibbonacheNumber());
+        Console.WriteLine(fibbonacheClass.FibbonacheNumber());
     }  
 
     Console.WriteLine("Sum of Fibbonache sequence = " + fibbonacheClass._Summ);
